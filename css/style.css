@@ -147,7 +147,7 @@ section {
 .header .search-form {
   height: 5rem;
   width: 50rem;
-  border-radius: 5rem;
+  border-radius: 15px;
   background: #fff;
   overflow: hidden;
   display: -webkit-box;
@@ -218,8 +218,8 @@ section {
   cursor: pointer;
   z-index: 10000;
   color: #3c6166;
-  -webkit-animation: rotate 0.4s linear 0.4s backwards;
-  animation: rotate 0.4s linear 0.4s backwards;
+  -webkit-animation: rotate 0.2s linear 0.2s backwards;
+  animation: rotate 0.2s linear 0.2s backwards;
   display: none;
 }
 
@@ -254,8 +254,8 @@ section {
   right: 0;
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .navbar a {
@@ -285,8 +285,8 @@ section {
   right: 0;
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .shopping-cart::-webkit-scrollbar {
@@ -388,14 +388,14 @@ section {
   right: 0;
   -webkit-box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 0 100vw rgba(0, 0, 0, 0.5);
-  -webkit-transition: 0.4s linear;
-  transition: 0.4s linear;
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease;
 }
 
 .login-form form {
   padding: 1.7rem;
   border: 0.1rem solid #3c6166;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .login-form form h3 {
@@ -436,6 +436,11 @@ section {
   margin: 1rem 0;
   width: 100%;
   text-align: center;
+  color: #fff;
+}
+
+.login-form .btn:hover {
+  text-decoration: none;
 }
 
 .login-form form p {
